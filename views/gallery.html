@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <meta name="description" content="Gallery page.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090909"/>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <header>
+        <h2>LUX AUTO TINT</h2>
+        <img id="menu-button" src="../images/menu.svg" alt="menu button">
+        <nav class="nav-items">
+            <a href="../index.html">HOME</a>
+            <a href="../views/services-and-pricing.html">PRICING</a>
+            <a href="../views/gallery.html">GALLERY</a>
+            <a href="../views/about.html">ABOUT</a>
+            <a id="active" href="../views/contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <main id="gallery-main">
+
+        <div id="side-nav-div" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" id="nav-close-btn">&times;</a>
+            <a href="../index.html">HOME</a>
+            <a href="../views/services-and-pricing.html">PRICING</a>
+            <a href="../views/gallery.html">GALLERY</a>
+            <a href="../views/about.html">ABOUT</a>
+            <a id="active" href="../views/contact.html">CONTACT</a>
+        </div>
+        
+        <h1>Photo Gallery</h1>
+
+            <!-- Slider main container -->
+            <div class="swiper gallery-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-810357.jpg"></div>
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-116675.jpg"></div>
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-244206.jpg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+
+            <div class="swiper gallery-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-244206.jpg"></div>
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-116675.jpg"></div>
+                    <div class="swiper-slide"><img src="../images/gallery/pexels-mike-b-810357.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+
+    </main>
+    
+    <footer>
+        <p>Contact us to schedule your appointment!</p>
+        <div class="button-div"><button><a href="./contact.html">Contact Us</a></button></div>
+        <p>Find us on social media!</p>
+        <div class="social-media">
+            <img src="../images/plain-instagram-logo.svg">
+            <img src="../images/plain-facebook-logo.svg">
+        </div>
+     </footer>
+    
+    <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/init-swiper.js"></script>
+
+</body>
+
+</html>

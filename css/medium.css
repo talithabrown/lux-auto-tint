@@ -1,0 +1,95 @@
+@media only screen and (min-width: 550px) {
+
+    /* Home and About Pages */
+    #about-main {
+        width: 80%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #home-title {
+        font-size: 1.8rem;
+    }
+
+} 
+
+@media only screen and (min-width: 720px) {
+    #gallery-div-on-home-page h3 {
+        padding-left: 0px;
+    }
+
+    #services-and-pricing-main h1 {
+        padding: 20px 0px;
+    }
+
+    #gallery-main h1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+        #home-title {
+            top: 100px;
+        }
+    
+    /* Contact Us Page */
+    
+        #contact-us-grid-container-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 50px auto;
+            gap: 35px;
+            width: 100%;
+            max-width: 915px;
+        }
+    
+        #contact-main {
+            padding: 15px;
+            padding-bottom: 300px;
+        }
+    
+        #contact-main h1{
+            text-align: left;
+        }
+    
+        #contact-p {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+    
+        .contact-div {
+            margin-left: 0px;
+        }
+    
+        #contact-form-div {
+            margin: 0px;
+        } 
+    
+    
+    /* About Us Page */
+    
+       #about-us-grid-container-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        #about-main {
+            margin-top: 150px;
+        }
+    
+        #about-main h1 {
+            text-align: left;
+            margin-top: 0px;
+        }
+    
+        .about-us-photo {
+            margin-top: 0px;
+        }
+    
+} 
+    
