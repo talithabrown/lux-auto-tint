@@ -1,6 +1,5 @@
 function openNav() {
     sideNav.style.width = "100%";
-    document.addEventListener('click', closeNavOnOutsideClick)
 }
   
 function closeNav() {
