@@ -49,8 +49,16 @@ window.onload = function() {
         let successAlert = document.getElementById('success-alert');
         let errorAlert = document.getElementById('error-alert');
 
+        let name = document.getElementById("name").value
+        let message = document.getElementById("message").value
+        let phoneNumber = document.getElementById("phone-number").value
+        let email = document.getElementById("email-address").value
+        let make = document.getElementById("car-make").value
+        let model = document.getElementById("car-model").value
+        let year = document.getElementById("car-year").value
+
         // validate input values
-        if (document.getElementById("name").value == "" || document.getElementById("message").value == "" || (document.getElementById("phone-number").value == "" && document.getElementById("email-address").value == "")) {
+        if (name == "" || message == "" || make == "" || model == "" || year == "" || (phoneNumber == "" && email == "")) {
             successAlert.style.display = "none";
             errorAlert.style.display = "none";
             requireAlert.style.display = "block"
@@ -70,7 +78,7 @@ window.onload = function() {
             this.name.value = document.getElementById("name").value;
             this.contactMethod.value = preferredContactMethod;
             this.contactInfo.value = contactInformation;
-            this.message.value = document.getElementById("message").value;
+            this.message.value = ` \n Make: ${make} \n Model: ${model} \n Year: ${year} \n Message: ${message}`;
             
             emailjs.sendForm('service_y4a368v', 'lux_tint_contact_form', this)
                 .then(function() {

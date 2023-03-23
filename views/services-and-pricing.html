@@ -16,6 +16,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+<!-- Google tag for google analytics (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-94BF6848C0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-94BF6848C0');
+</script>
 
 <body>
     <header>
@@ -42,55 +51,98 @@
         
         <h1>Services and Pricing</h1>
 
+        <div id="toggle-container-div">
+            <div id="toggle-div">
+                <p id="ceramic-label">Ceramic Tint</p>
+                <p id="carbon-label" class="active-price-toggle">Carbon Tint</p>
+            </div>
+        </div>
+
         <div id="prices-div">
+            <hr>
             <div>
                 <p>Truck Standard Cab (2 door)</p>
-                <p>$200</p>
+                <div>
+                    <p class="carbon-price">$200</p>
+                    <p class="ceramic-price">$300</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Truck Crew Cab (4 door)</p>
-                <p>$250</p>
+                <div>
+                    <p class="carbon-price">$250</p>
+                    <p class="ceramic-price">$350</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>SUV</p>
-                <p>$275 - $350</p>
+                <div>
+                    <p class="carbon-price">$275 - $350</p>
+                    <p class="ceramic-price">$375 - $450</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Van</p>
-                <p>$300 - $350</p>
+                <div>
+                    <p class="carbon-price">$300 - $350</p>
+                    <p class="ceramic-price">$400 - $450</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Jeep</p>
-                <p>$300</p>
+                <div>
+                    <p class="carbon-price">$300</p>
+                    <p class="ceramic-price">$400</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Sedan (4 Door Car)</p>
-                <p>$250 - $300</p>
+                <div>
+                    <p class="carbon-price">$250 - $300</p>
+                    <p class="ceramic-price">$350 - $400</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>2 Front Windows</p>
-                <p>$100 - $125</p>
+                <div>
+                    <p class="carbon-price">$100 - $125</p>
+                    <p class="ceramic-price">$175</p>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <p>Full Windshield</p>
+                <div>
+                    <p class="carbon-price">$100</p>
+                    <p class="ceramic-price">$150</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Brow</p>
-                <p>$35</p>
+                <div>
+                    <p>$35</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Scrape Old Tint (Per Window)</p>
-                <p>$15</p>
+                <div>
+                    <p>$15</p>
+                </div>
             </div>
             <hr>
             <div>
                 <p>Scrape Old Tint - Back Glass</p>
-                <p>$65</p>
+                <div>
+                    <p>$65</p>
+                </div>
             </div>
             <hr>
         </div>
@@ -104,12 +156,13 @@
         <div class="button-div"><button><a href="./contact.html">Contact Us</a></button></div>
         <p>Find us on social media!</p>
         <div class="social-media">
-            <img src="../images/plain-instagram-logo.svg">
-            <img src="../images/plain-facebook-logo.svg">
+            <a href="https://www.instagram.com/lux_auto_tint/" target="_blank"><img src="../images/plain-instagram-logo.svg"></a>
+            <a href="https://www.facebook.com/people/Lux-Auto-Tint/100090584660021/" target="_blank"><img src="../images/plain-facebook-logo.svg"></a>
         </div>
      </footer>
     
     <script src="../js/main.js"></script>
+    <script src="../js/pricing.js"></script>
 
 </body>
 

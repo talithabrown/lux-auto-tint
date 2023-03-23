@@ -160,6 +160,10 @@ h1 {
     text-align: center;
 }
 
+.display-none {
+    display: none;
+}
+
 /* ----------------------------------------------------------------- */
 /* -------------------------- HOME PAGE ------------------------- */
 /* ----------------------------------------------------------------- */
@@ -377,7 +381,31 @@ h1 {
 #prices-div div {
     display: flex;
     justify-content: space-between;
+}
 
+#toggle-div {
+    display: inline-flex;
+    justify-items: center;
+    border: 1px solid #C1A25E;
+    border-radius: 30px;
+    background-color: #333333;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#toggle-container-div {
+    text-align: end;
+    margin-top: 40px;
+}
+
+#toggle-div p {
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.active-price-toggle {
+    background-color: #C1A25E;
 }
 
 
