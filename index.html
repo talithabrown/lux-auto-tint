@@ -3,35 +3,38 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Lux Auto Tint | Home</title>
     <meta name="description" content="Home page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#090909"/>
+    <meta name="theme-color" content="#090909" />
+    <link type="image/png" sizes="32x32" rel="icon" href="./favicon.png">
     <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 <!-- Google tag for google analytics (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-94BF6848C0"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-94BF6848C0');
+    gtag('config', 'G-94BF6848C0');
 </script>
 
 <body>
     <div class="intro">
         <div class="logo-container-div">
-            <img class="intro-logo" src="images/lux-auto-tint-logo-3.png" alt="lux auto tint logo">
+            <!-- <img class="intro-logo" src="images/lux-auto-tint-logo-3.png" alt="lux auto tint logo"> -->
+            <img class="intro-logo" src="images/lux-auto-tint-logo-website-intro.png" alt="lux auto tint logo">
         </div>
     </div>
     <header id="home-header">
@@ -45,112 +48,126 @@
             <a href="./views/contact.html">CONTACT</a>
         </nav>
     </header>
-        <div id="side-nav-div" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" id="nav-close-btn">&times;</a>
-            <a id="active" href="./index.html">HOME</a>
-            <a href="./views/services-and-pricing.html">PRICING</a>
-            <a href="./views/gallery.html">GALLERY</a>
-            <a href="./views/about.html">ABOUT</a>
-            <a href="./views/contact.html">CONTACT</a>
+    <div id="side-nav-div" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" id="nav-close-btn">&times;</a>
+        <a id="active" href="./index.html">HOME</a>
+        <a href="./views/services-and-pricing.html">PRICING</a>
+        <a href="./views/gallery.html">GALLERY</a>
+        <a href="./views/about.html">ABOUT</a>
+        <a href="./views/contact.html">CONTACT</a>
+    </div>
+
+    <main id="home-main">
+
+        <picture>
+            <source media="(min-width: 1000px)" srcset="./images/black-car-outline-large-cropped-shorter-2.jpg">
+            <source media="(min-width: 900px)" srcset="./images/black-car-outline-large-cropped-shorter.jpg">
+            <source media="(min-width: 700px)" srcset="./images/black-car-outline-medium-cropped-shorter-2.jpg">
+            <source media="(min-width: 600px)" srcset="./images/black-car-outline-medium-cropped-shorter.jpg">
+            <img id="black-car-ouline-img" src="./images/black-car-outline-medium.jpg">
+        </picture>
+
+        <h2 id="home-title">UPGRADE YOUR CAR WITH<br>LUX AUTO TINT</h2>
+
+        <div id="about-us-backgroundcolor-div">
+            <div id="about-us-div-on-home-page">
+                <h3>ABOUT US</h3>
+                <p>Welcome to Lux Auto Tint, your trusted destination for top-quality auto tinting services.
+                    Located at 1321 E Lumberman’s Loop, Suite 107, Show Low, AZ, we take pride in delivering impeccable
+                    tinting solutions
+                    that stand the test of time. We combine precision craftsmanship with premium materials to ensure
+                    your vehicle's tinting exceeds
+                    expectations. Discover why customers choose us for unparalleled durability and aesthetics. Explore
+                    our services and learn more about us today!</p>
+                <div><button><a href="./views/about.html">Learn More</a></button></div>
+            </div>
         </div>
 
-        <main id="home-main">
-
-            <picture>
-                <source media="(min-width: 1000px)" srcset="./images/black-car-outline-large-cropped-shorter-2.jpg">
-                <source media="(min-width: 900px)" srcset="./images/black-car-outline-large-cropped-shorter.jpg">
-                <source media="(min-width: 700px)" srcset="./images/black-car-outline-medium-cropped-shorter-2.jpg">
-                <source media="(min-width: 600px)" srcset="./images/black-car-outline-medium-cropped-shorter.jpg">
-                <img id="black-car-ouline-img" src="./images/black-car-outline-medium.jpg">
-            </picture>
-
-            <h2 id="home-title">UPGRADE YOUR CAR WITH<br>LUX AUTO TINT</h2>
-
-            <div id="about-us-backgroundcolor-div">
-                <div id="about-us-div-on-home-page">
-                    <h3>ABOUT US</h3>
-                    <p>We provide high quality tint that doesn't fade or bubble. We provide tinting services to Show Low AZ and all surrounding cities 
-                        (Pinetop-Lakeside, Snowflake, Taylor, Heber, Eagar, Payson, St. John, Holbrook). Currently we only offer mobile tinting. For no extra 
-                        charge we will come to you and tint your car!</p>
-                    <div><button><a href="./views/about.html">Learn More</a></button></div>
-                </div>
-            </div>
-
-            <div id="home-page-gallery-backgroundcolor-div">
-                <div id="gallery-div-on-home-page">
-                    <h3>OUR WORK</h3>
-                    <!-- Swiper -->
-                    <div class="swiper mySwiper home-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="./images/mustang-vertical.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/black-chevy-truck-3.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/gallery//pexels-aleksey-kuprikov-3786091.jpg">
-                            </div>
+        <div id="home-page-gallery-backgroundcolor-div">
+            <div id="gallery-div-on-home-page">
+                <h3>OUR WORK</h3>
+                <!-- Swiper -->
+                <div class="swiper mySwiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/black-corvet.jpg">
                         </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                    <div id="view-gallery-button-holder-div"><button><a href="./views/gallery.html">View Gallery</a></button></div>
-                </div>
-            </div>
-
-            <div id="tint-benifits-backgroundcolor-div">
-                <div id="tint-benifits-h3-and-grid-and-button-div">
-                    <h3 id="benifits-h3">BENIFITS OF AUTO TINT</h3>
-                    <div id="all-tint-benifits-div">
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/emoji_heart eyes_icon.svg">
-                            <p>Looks much nicer</p>
+                        <div class="swiper-slide">
+                            <img src="./images/mustang-vertical.jpg">
                         </div>
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/incognito_icon.svg">
-                            <p>Increases privacy inside your car</p>
-                        </div>
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/protect_sun_shield_icon.svg">
-                            <p>Blocks UV rays and light</p>
-                        </div>
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/snowflake_icon.svg">
-                            <p>Keeps your car cooler in the summer</p>
-                        </div>
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/sun_shield_icon.svg">
-                            <p>Protects interior from sun damage</p>
-                        </div>
-                        <div class="tint-benifit-div">
-                            <img class="benifits-icon" src="./images/icons/sunglasses_icon.svg">
-                            <p>Reduces glare</p>
+                        <div class="swiper-slide">
+                            <img src="./images/red-toyota-corolla.jpg">
                         </div>
                     </div>
-                    <div id="pricing-button-holder-div"><button><a href="./views/services-and-pricing.html">See Pricing</a></button></div>
+                    <div class="swiper-pagination"></div>
                 </div>
+                <div id="view-gallery-button-holder-div"><button><a href="./views/gallery.html">View
+                            Gallery</a></button></div>
             </div>
+        </div>
 
-            <div id="carbon-tint-backgroundcolor-div">
-                <div id="carbon-tint-div">
-                    <h3>WE USE CARBON BASED TINT</h3>
-                    <p>Carbon based tint is high quality. It blocks 99.9% UV rays from the sun that can lead to skin cancer and skin damage. It blocks 67% IR (infrared radiation) heat from the sun. 
-                        Carbon based tint will never fade or change color! We also carry ceramic tint, which is even higher quality. It blocks 
-                        up to 88% IR (infrared radiation) heat from the sun. </p>
+        <div id="tint-benifits-backgroundcolor-div">
+            <div id="tint-benifits-h3-and-grid-and-button-div">
+                <h3 id="benifits-h3">BENIFITS OF AUTO TINT</h3>
+                <div id="all-tint-benifits-div">
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/emoji_heart eyes_icon.svg">
+                        <p>Looks much nicer</p>
+                    </div>
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/incognito_icon.svg">
+                        <p>Increases privacy inside your car</p>
+                    </div>
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/protect_sun_shield_icon.svg">
+                        <p>Blocks UV rays and light</p>
+                    </div>
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/snowflake_icon.svg">
+                        <p>Keeps your car cooler in the summer</p>
+                    </div>
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/sun_shield_icon.svg">
+                        <p>Protects interior from sun damage</p>
+                    </div>
+                    <div class="tint-benifit-div">
+                        <img class="benifits-icon" src="./images/icons/sunglasses_icon.svg">
+                        <p>Reduces glare</p>
+                    </div>
                 </div>
+                <div id="pricing-button-holder-div"><button><a href="./views/services-and-pricing.html">See
+                            Pricing</a></button></div>
             </div>
+        </div>
 
-    
-        </main>
+        <div id="carbon-tint-backgroundcolor-div">
+            <div id="carbon-tint-div">
+                <h3>WE USE CARBON BASED TINT</h3>
+                <p>Indulge in the epitome of tinting excellence with our carbon-based tint—a high-quality guardian that
+                    shields against 99.9% of harmful UV rays,
+                    safeguarding you from the risk of skin cancer and damage. Experience a 67% reduction in infrared
+                    radiation (IR) heat from the sun, all while
+                    reveling in the assurance that our carbon-based tint remains fade-resistant and steadfast in color.
+                    And if you seek the pinnacle of quality,
+                    explore our ceramic tint, boasting an impressive 88% reduction in IR heat. Elevate your tinting
+                    standards with us, where protection meets
+                    sophistication.</p>
+            </div>
+        </div>
+
+
+    </main>
     <footer>
         <p>Contact us to schedule your appointment!</p>
         <div class="button-div"><button><a href="./views/contact.html">Contact Us</a></button></div>
         <p>Find us on social media!</p>
         <div class="social-media">
-            <a href="https://www.instagram.com/lux_auto_tint/" target="_blank"><img src="./images/plain-instagram-logo.svg"></a>
-            <a href="https://www.facebook.com/people/Lux-Auto-Tint/100090584660021/" target="_blank"><img src="./images/plain-facebook-logo.svg"></a>
+            <a href="https://www.instagram.com/lux_auto_tint/" target="_blank"><img
+                    src="./images/plain-instagram-logo.svg"></a>
+            <a href="https://www.facebook.com/people/Lux-Auto-Tint/100090584660021/" target="_blank"><img
+                    src="./images/plain-facebook-logo.svg"></a>
         </div>
-     </footer>
+    </footer>
 
     <script src="js/home.js"></script>
     <script src="js/main.js"></script>
