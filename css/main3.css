@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-    ;
     font-weight: 300;
     box-sizing: border-box;
 }
@@ -333,9 +332,13 @@ h1 {
     margin-right: auto;
 }
 
-#about-us-body {
-    background-color: #212529;
-    color: white;
+#about-main h1 {
+    text-align: start;
+}
+
+#about-main strong {
+    font-weight: 600;
+    margin-right: 5px;
 }
 
 /* ----------------------------------------------------------------- */
